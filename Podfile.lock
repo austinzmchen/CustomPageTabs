@@ -1,0 +1,27 @@
+PODS:
+  - RZTransitions (1.2.1)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - RZTransitions (from `https://github.com/austinzmchen/RZTransitions.git`, branch `release/ACCustomUI_1.2`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  RZTransitions:
+    :branch: release/ACCustomUI_1.2
+    :git: https://github.com/austinzmchen/RZTransitions.git
+
+CHECKOUT OPTIONS:
+  RZTransitions:
+    :commit: bda806ffead9a031ad68388ea04a273ef6b681f1
+    :git: https://github.com/austinzmchen/RZTransitions.git
+
+SPEC CHECKSUMS:
+  RZTransitions: 0e0013fda6989ee84dc5e44dca79fd539e1a975a
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: b2db810ecfcdb71ea0e57088dfdee9a86ef7eeb9
+
+COCOAPODS: 1.2.1

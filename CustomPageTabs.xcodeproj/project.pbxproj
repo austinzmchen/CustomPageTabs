@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45D68121F755BEE001144B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68111F755BEE001144B3 /* AppDelegate.swift */; };
+		C45D68141F755BEE001144B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68131F755BEE001144B3 /* ViewController.swift */; };
+		C45D68171F755BEE001144B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D68151F755BEE001144B3 /* Main.storyboard */; };
+		C45D68191F755BEE001144B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45D68181F755BEE001144B3 /* Assets.xcassets */; };
+		C45D681C1F755BEE001144B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D681A1F755BEE001144B3 /* LaunchScreen.storyboard */; };
+		C45D68281F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */; };
+		C45D68291F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */; };
+		C45D682A1F7561B2001144B3 /* STCardsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */; };
+		C45D682B1F7561B2001144B3 /* STCardsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */; };
+		C45D682E1F75636E001144B3 /* ViewController+CardTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */; };
+		E732D55F45C780E0B672AC7F /* Pods_CustomPageTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPageTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45D680E1F755BEE001144B3 /* CustomPageTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPageTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45D68111F755BEE001144B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45D68131F755BEE001144B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C45D68161F755BEE001144B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45D68181F755BEE001144B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45D681B1F755BEE001144B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45D681D1F755BEE001144B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCardHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardsHeaderView.swift; sourceTree = "<group>"; };
+		C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCardsHeaderView.xib; sourceTree = "<group>"; };
+		C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+CardTransitions.swift"; sourceTree = "<group>"; };
+		D15103BA9F1130240028AC18 /* Pods-CustomPageTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA9732D505F89D8B0520A0D /* Pods-CustomPageTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45D680B1F755BEE001144B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E732D55F45C780E0B672AC7F /* Pods_CustomPageTabs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C6A474031CB1F4B8E2BE2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90DB72AB69CD6784B2D1AED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15103BA9F1130240028AC18 /* Pods-CustomPageTabs.debug.xcconfig */,
+				DBA9732D505F89D8B0520A0D /* Pods-CustomPageTabs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C45D68051F755BEE001144B3 = {
+			isa = PBXGroup;
+			children = (
+				C45D68101F755BEE001144B3 /* CustomPageTabs */,
+				C45D680F1F755BEE001144B3 /* Products */,
+				90DB72AB69CD6784B2D1AED4 /* Pods */,
+				28C6A474031CB1F4B8E2BE2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C45D680F1F755BEE001144B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45D680E1F755BEE001144B3 /* CustomPageTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45D68101F755BEE001144B3 /* CustomPageTabs */ = {
+			isa = PBXGroup;
+			children = (
+				C45D68111F755BEE001144B3 /* AppDelegate.swift */,
+				C45D68131F755BEE001144B3 /* ViewController.swift */,
+				C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */,
+				C45D68231F7561B2001144B3 /* Views */,
+				C45D68151F755BEE001144B3 /* Main.storyboard */,
+				C45D68181F755BEE001144B3 /* Assets.xcassets */,
+				C45D681A1F755BEE001144B3 /* LaunchScreen.storyboard */,
+				C45D681D1F755BEE001144B3 /* Info.plist */,
+			);
+			path = CustomPageTabs;
+			sourceTree = "<group>";
+		};
+		C45D68231F7561B2001144B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */,
+				C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */,
+				C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */,
+				C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45D680D1F755BEE001144B3 /* CustomPageTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45D68201F755BEE001144B3 /* Build configuration list for PBXNativeTarget "CustomPageTabs" */;
+			buildPhases = (
+				0162FEDC084E35E35AFE22B0 /* [CP] Check Pods Manifest.lock */,
+				C45D680A1F755BEE001144B3 /* Sources */,
+				C45D680B1F755BEE001144B3 /* Frameworks */,
+				C45D680C1F755BEE001144B3 /* Resources */,
+				EFA3F13C0FD2DA7CDDF9E387 /* [CP] Embed Pods Frameworks */,
+				05CE30A9CBFAEEEB9EDECA76 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPageTabs;
+			productName = CustomPageTabs;
+			productReference = C45D680E1F755BEE001144B3 /* CustomPageTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45D68061F755BEE001144B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ACCodeworks Inc";
+				TargetAttributes = {
+					C45D680D1F755BEE001144B3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JF6RD64R9G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C45D68091F755BEE001144B3 /* Build configuration list for PBXProject "CustomPageTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45D68051F755BEE001144B3;
+			productRefGroup = C45D680F1F755BEE001144B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45D680D1F755BEE001144B3 /* CustomPageTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45D680C1F755BEE001144B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45D68291F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib in Resources */,
+				C45D681C1F755BEE001144B3 /* LaunchScreen.storyboard in Resources */,
+				C45D68191F755BEE001144B3 /* Assets.xcassets in Resources */,
+				C45D682B1F7561B2001144B3 /* STCardsHeaderView.xib in Resources */,
+				C45D68171F755BEE001144B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0162FEDC084E35E35AFE22B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		05CE30A9CBFAEEEB9EDECA76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA3F13C0FD2DA7CDDF9E387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45D680A1F755BEE001144B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45D68141F755BEE001144B3 /* ViewController.swift in Sources */,
+				C45D68281F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift in Sources */,
+				C45D682A1F7561B2001144B3 /* STCardsHeaderView.swift in Sources */,
+				C45D682E1F75636E001144B3 /* ViewController+CardTransitions.swift in Sources */,
+				C45D68121F755BEE001144B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C45D68151F755BEE001144B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45D68161F755BEE001144B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45D681A1F755BEE001144B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45D681B1F755BEE001144B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45D681E1F755BEE001144B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45D681F1F755BEE001144B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45D68211F755BEE001144B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15103BA9F1130240028AC18 /* Pods-CustomPageTabs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF6RD64R9G;
+				INFOPLIST_FILE = CustomPageTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ac.CustomPageTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C45D68221F755BEE001144B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA9732D505F89D8B0520A0D /* Pods-CustomPageTabs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF6RD64R9G;
+				INFOPLIST_FILE = CustomPageTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ac.CustomPageTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45D68091F755BEE001144B3 /* Build configuration list for PBXProject "CustomPageTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45D681E1F755BEE001144B3 /* Debug */,
+				C45D681F1F755BEE001144B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45D68201F755BEE001144B3 /* Build configuration list for PBXNativeTarget "CustomPageTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45D68211F755BEE001144B3 /* Debug */,
+				C45D68221F755BEE001144B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45D68061F755BEE001144B3 /* Project object */;
+}
