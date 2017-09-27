@@ -1,5 +1,5 @@
 //
-//  STCardHeaderCollectionViewCell.swift
+//  STTabHeaderCollectionViewCell.swift
 //  SnackableTV
 //
 //  Created by Austin Chen on 2017-04-03.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class STCardHeaderCollectionViewCell: UICollectionViewCell {
+class STTabHeaderCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var headerTitleLabel: UILabel!
     

@@ -8,6 +8,6 @@ target 'CustomPageTabs' do
   # Pods for CustomPageTabs
   # UI
   pod 'SDWebImage'
-  pod 'RZTransitions', :git => 'https://github.com/austinzmchen/RZTransitions.git', :branch => 'release/ACCustomUI_1.2'
+  pod 'RZTransitions', :git => 'https://github.com/austinzmchen/RZTransitions.git', :branch => 'release/ACCustomUI_1.1.4'
   
 end

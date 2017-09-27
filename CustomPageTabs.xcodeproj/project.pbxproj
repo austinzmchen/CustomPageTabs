@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C45D68121F755BEE001144B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68111F755BEE001144B3 /* AppDelegate.swift */; };
-		C45D68141F755BEE001144B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68131F755BEE001144B3 /* ViewController.swift */; };
 		C45D68171F755BEE001144B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D68151F755BEE001144B3 /* Main.storyboard */; };
 		C45D68191F755BEE001144B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45D68181F755BEE001144B3 /* Assets.xcassets */; };
 		C45D681C1F755BEE001144B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D681A1F755BEE001144B3 /* LaunchScreen.storyboard */; };
-		C45D68281F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */; };
-		C45D68291F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */; };
-		C45D682A1F7561B2001144B3 /* STCardsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */; };
-		C45D682B1F7561B2001144B3 /* STCardsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */; };
-		C45D682E1F75636E001144B3 /* ViewController+CardTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */; };
+		C45D68C31F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68B81F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift */; };
+		C45D68C41F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68B91F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib */; };
+		C45D68C51F7B56B6001144B3 /* STTabsHeaderView+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BA1F7B56B6001144B3 /* STTabsHeaderView+Interactive.swift */; };
+		C45D68C61F7B56B6001144B3 /* STTabsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BB1F7B56B6001144B3 /* STTabsHeaderView.swift */; };
+		C45D68C71F7B56B6001144B3 /* STTabsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68BC1F7B56B6001144B3 /* STTabsHeaderView.xib */; };
+		C45D68C81F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */; };
+		C45D68C91F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */; };
+		C45D68CA1F7B56B7001144B3 /* ACCustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */; };
+		C45D68CB1F7B56B7001144B3 /* ACCustomPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */; };
+		C45D68CC1F7B56B7001144B3 /* STCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68C21F7B56B6001144B3 /* STCardViewController.swift */; };
 		E732D55F45C780E0B672AC7F /* Pods_CustomPageTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,16 +28,20 @@
 		13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPageTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45D680E1F755BEE001144B3 /* CustomPageTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPageTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45D68111F755BEE001144B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C45D68131F755BEE001144B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C45D68161F755BEE001144B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45D68181F755BEE001144B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45D681B1F755BEE001144B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45D681D1F755BEE001144B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
-		C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCardHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
-		C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardsHeaderView.swift; sourceTree = "<group>"; };
-		C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCardsHeaderView.xib; sourceTree = "<group>"; };
-		C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+CardTransitions.swift"; sourceTree = "<group>"; };
+		C45D68B81F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTabHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		C45D68B91F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTabHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		C45D68BA1F7B56B6001144B3 /* STTabsHeaderView+Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "STTabsHeaderView+Interactive.swift"; sourceTree = "<group>"; };
+		C45D68BB1F7B56B6001144B3 /* STTabsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTabsHeaderView.swift; sourceTree = "<group>"; };
+		C45D68BC1F7B56B6001144B3 /* STTabsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTabsHeaderView.xib; sourceTree = "<group>"; };
+		C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCustomPageViewController+Cards.swift"; sourceTree = "<group>"; };
+		C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCustomPageViewController+CardTransitions.swift"; sourceTree = "<group>"; };
+		C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCustomPageViewController.swift; sourceTree = "<group>"; };
+		C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACCustomPageViewController.xib; sourceTree = "<group>"; };
+		C45D68C21F7B56B6001144B3 /* STCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardViewController.swift; sourceTree = "<group>"; };
 		D15103BA9F1130240028AC18 /* Pods-CustomPageTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.debug.xcconfig"; sourceTree = "<group>"; };
 		DBA9732D505F89D8B0520A0D /* Pods-CustomPageTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,26 +97,38 @@
 			isa = PBXGroup;
 			children = (
 				C45D68111F755BEE001144B3 /* AppDelegate.swift */,
-				C45D68131F755BEE001144B3 /* ViewController.swift */,
-				C45D682C1F75636E001144B3 /* ViewController+CardTransitions.swift */,
-				C45D68231F7561B2001144B3 /* Views */,
 				C45D68151F755BEE001144B3 /* Main.storyboard */,
 				C45D68181F755BEE001144B3 /* Assets.xcassets */,
 				C45D681A1F755BEE001144B3 /* LaunchScreen.storyboard */,
 				C45D681D1F755BEE001144B3 /* Info.plist */,
+				C45D68B71F7B56B6001144B3 /* Views */,
+				C45D68BD1F7B56B6001144B3 /* ViewControllers */,
 			);
 			path = CustomPageTabs;
 			sourceTree = "<group>";
 		};
-		C45D68231F7561B2001144B3 /* Views */ = {
+		C45D68B71F7B56B6001144B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C45D68241F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift */,
-				C45D68251F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib */,
-				C45D68261F7561B2001144B3 /* STCardsHeaderView.swift */,
-				C45D68271F7561B2001144B3 /* STCardsHeaderView.xib */,
+				C45D68B81F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift */,
+				C45D68B91F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib */,
+				C45D68BA1F7B56B6001144B3 /* STTabsHeaderView+Interactive.swift */,
+				C45D68BB1F7B56B6001144B3 /* STTabsHeaderView.swift */,
+				C45D68BC1F7B56B6001144B3 /* STTabsHeaderView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C45D68BD1F7B56B6001144B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */,
+				C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */,
+				C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */,
+				C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */,
+				C45D68C21F7B56B6001144B3 /* STCardViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45D68291F7561B2001144B3 /* STCardHeaderCollectionViewCell.xib in Resources */,
+				C45D68CB1F7B56B7001144B3 /* ACCustomPageViewController.xib in Resources */,
+				C45D68C41F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib in Resources */,
+				C45D68C71F7B56B6001144B3 /* STTabsHeaderView.xib in Resources */,
 				C45D681C1F755BEE001144B3 /* LaunchScreen.storyboard in Resources */,
 				C45D68191F755BEE001144B3 /* Assets.xcassets in Resources */,
-				C45D682B1F7561B2001144B3 /* STCardsHeaderView.xib in Resources */,
 				C45D68171F755BEE001144B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,10 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45D68141F755BEE001144B3 /* ViewController.swift in Sources */,
-				C45D68281F7561B2001144B3 /* STCardHeaderCollectionViewCell.swift in Sources */,
-				C45D682A1F7561B2001144B3 /* STCardsHeaderView.swift in Sources */,
-				C45D682E1F75636E001144B3 /* ViewController+CardTransitions.swift in Sources */,
+				C45D68C51F7B56B6001144B3 /* STTabsHeaderView+Interactive.swift in Sources */,
+				C45D68C91F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift in Sources */,
+				C45D68C31F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift in Sources */,
+				C45D68C81F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift in Sources */,
+				C45D68C61F7B56B6001144B3 /* STTabsHeaderView.swift in Sources */,
+				C45D68CC1F7B56B7001144B3 /* STCardViewController.swift in Sources */,
+				C45D68CA1F7B56B7001144B3 /* ACCustomPageViewController.swift in Sources */,
 				C45D68121F755BEE001144B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

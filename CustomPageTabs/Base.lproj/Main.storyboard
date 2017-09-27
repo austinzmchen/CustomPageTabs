@@ -14,10 +14,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Custom Page View Controller-->
         <scene sceneID="WlR-AI-XKC">
             <objects>
-                <viewController storyboardIdentifier="mainContainerVC" id="9H7-nE-r6S" customClass="ViewController" customModule="CustomPageTabs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainContainerVC" id="9H7-nE-r6S" customClass="ACCustomPageViewController" customModule="CustomPageTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pux-rB-OvX"/>
                         <viewControllerLayoutGuide type="bottom" id="gfI-X5-kLU"/>
@@ -46,7 +46,7 @@
                                             <constraint firstAttribute="height" constant="60" id="oEW-eA-DWm"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3VQ-sJ-PdI" userLabel="headerView" customClass="STCardsHeaderView" customModule="CustomPageTabs" customModuleProvider="target">
+                                    <view tag="11" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3VQ-sJ-PdI" userLabel="headerView" customClass="STTabsHeaderView" customModule="CustomPageTabs" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="60" width="375" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -82,9 +82,6 @@
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <connections>
-                        <outlet property="cardsHeaderView" destination="3VQ-sJ-PdI" id="4dQ-Jz-YuT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Szo-fA-fZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
