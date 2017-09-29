@@ -19,8 +19,9 @@
 		C45D68C81F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */; };
 		C45D68C91F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */; };
 		C45D68CA1F7B56B7001144B3 /* ACCustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */; };
-		C45D68CB1F7B56B7001144B3 /* ACCustomPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */; };
+		C45D68CB1F7B56B7001144B3 /* ACCustomPageNibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45D68C11F7B56B6001144B3 /* ACCustomPageNibViewController.xib */; };
 		C45D68CC1F7B56B7001144B3 /* STCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D68C21F7B56B6001144B3 /* STCardViewController.swift */; };
+		C471210F1F7DDA2D00A885BC /* ACCustomPageNibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C471210E1F7DDA2D00A885BC /* ACCustomPageNibViewController.swift */; };
 		E732D55F45C780E0B672AC7F /* Pods_CustomPageTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DBA339AE472B5F435E323C /* Pods_CustomPageTabs.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +41,9 @@
 		C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCustomPageViewController+Cards.swift"; sourceTree = "<group>"; };
 		C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCustomPageViewController+CardTransitions.swift"; sourceTree = "<group>"; };
 		C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCustomPageViewController.swift; sourceTree = "<group>"; };
-		C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACCustomPageViewController.xib; sourceTree = "<group>"; };
+		C45D68C11F7B56B6001144B3 /* ACCustomPageNibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACCustomPageNibViewController.xib; sourceTree = "<group>"; };
 		C45D68C21F7B56B6001144B3 /* STCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCardViewController.swift; sourceTree = "<group>"; };
+		C471210E1F7DDA2D00A885BC /* ACCustomPageNibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCustomPageNibViewController.swift; sourceTree = "<group>"; };
 		D15103BA9F1130240028AC18 /* Pods-CustomPageTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.debug.xcconfig"; sourceTree = "<group>"; };
 		DBA9732D505F89D8B0520A0D /* Pods-CustomPageTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPageTabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPageTabs/Pods-CustomPageTabs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,10 +124,11 @@
 		C45D68BD1F7B56B6001144B3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C471210E1F7DDA2D00A885BC /* ACCustomPageNibViewController.swift */,
+				C45D68C11F7B56B6001144B3 /* ACCustomPageNibViewController.xib */,
+				C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */,
 				C45D68BE1F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift */,
 				C45D68BF1F7B56B6001144B3 /* ACCustomPageViewController+CardTransitions.swift */,
-				C45D68C01F7B56B6001144B3 /* ACCustomPageViewController.swift */,
-				C45D68C11F7B56B6001144B3 /* ACCustomPageViewController.xib */,
 				C45D68C21F7B56B6001144B3 /* STCardViewController.swift */,
 			);
 			path = ViewControllers;
@@ -194,7 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45D68CB1F7B56B7001144B3 /* ACCustomPageViewController.xib in Resources */,
+				C45D68CB1F7B56B7001144B3 /* ACCustomPageNibViewController.xib in Resources */,
 				C45D68C41F7B56B6001144B3 /* STTabHeaderCollectionViewCell.xib in Resources */,
 				C45D68C71F7B56B6001144B3 /* STTabsHeaderView.xib in Resources */,
 				C45D681C1F755BEE001144B3 /* LaunchScreen.storyboard in Resources */,
@@ -263,6 +266,7 @@
 				C45D68C31F7B56B6001144B3 /* STTabHeaderCollectionViewCell.swift in Sources */,
 				C45D68C81F7B56B6001144B3 /* ACCustomPageViewController+Cards.swift in Sources */,
 				C45D68C61F7B56B6001144B3 /* STTabsHeaderView.swift in Sources */,
+				C471210F1F7DDA2D00A885BC /* ACCustomPageNibViewController.swift in Sources */,
 				C45D68CC1F7B56B7001144B3 /* STCardViewController.swift in Sources */,
 				C45D68CA1F7B56B7001144B3 /* ACCustomPageViewController.swift in Sources */,
 				C45D68121F755BEE001144B3 /* AppDelegate.swift in Sources */,

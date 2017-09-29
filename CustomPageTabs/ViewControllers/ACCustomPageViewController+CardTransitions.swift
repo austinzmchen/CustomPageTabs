@@ -13,6 +13,7 @@ struct ACCardInteraction {
     var inProgress: Bool
     var direction: ACCardScrollDirection
 }
+
 enum ACCardScrollDirection {
     case scrollLeft
     case scrollRight
