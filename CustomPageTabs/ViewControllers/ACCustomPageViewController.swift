@@ -22,11 +22,13 @@ class ACCustomPageViewController: ACCustomPageNibViewController {
     
     var currentCardViewController: UIViewController? {
         if currentCardIdx < self.cardViewControllers.count {
-            return nil
-        } else {
             return self.cardViewControllers[currentCardIdx]
+        } else {
+            return nil
         }
     }
+
+    // var mockCategoryItems: STTopCategoryItem = sharedTestCategoryItems[3]
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -47,9 +49,7 @@ class ACCustomPageViewController: ACCustomPageNibViewController {
         
         cardViewControllers = [vc1, vc2, vc3, vc4]
     }
-    
-    // var mockCategoryItems: STTopCategoryItem = sharedTestCategoryItems[3]
-   
+
     // self.view translatesAutoresizingMaskIntoConstraints is always true disregard how self is initialized
     override func viewDidLoad() {
         super.viewDidLoad()
